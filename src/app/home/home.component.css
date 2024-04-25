@@ -1,0 +1,19 @@
+.container{
+    padding-bottom:60px;
+}
+.display{
+    align-self:center;
+    margin-top: -6%;
+    margin-left: 50px;
+    padding-bottom: 40px;
+    padding-top: 0%;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: bold;
+}
+#teacher{
+    margin-left: 50px;
+}
+#student{
+    margin-left: 50px;
+}

@@ -1,0 +1,16 @@
+.container{
+    width: 300%;
+    margin-top: 45px;
+}
+.btn {
+    border-radius: 40px; 
+    border-color: black;
+    width: 100px;
+    
+}
+#clear{
+   margin-left: 9px;
+}
+.form-control{
+    border-radius: 40px;
+}

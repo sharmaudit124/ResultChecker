@@ -1,0 +1,37 @@
+<div>
+    <button type="button" class="btn btn-info" style="margin-top: 10px;margin-left:10px;" (click)="back()">Back</button>
+</div>
+<div style="width: 38rem; margin-top:-2%;margin-left:28%;height: 30rem;">
+    <div class="card-body">
+        <div style="margin-left:30%;">
+            <img src="https://www.whitburncofeacademy.org/wp-content/uploads/2016/08/Results.png" alt="Result"
+                style="width: 10rem;height:7rem;">
+        </div>
+
+        <div style="margin-left:5%;"><strong>Your Evaluation scores!</strong></div>
+        <hr>
+    </div>
+    <div class="row">
+        <div class="col-5">
+
+            <div style="margin-left:20%;">Roll No</div><br>
+            <div style="margin-left:20%;">Name</div><br>
+            <div style="margin-left:20%;">Date of Birth</div><br>
+            <div style="margin-left:20%;">Score</div><br>
+        </div>
+        <div class="col-1">
+            <div>:</div><br>
+            <div>:</div><br>
+            <div>:</div><br>
+            <div>:</div>
+        </div>
+        <div class="col-5">
+
+            <div style="margin-left:20%;">{{getRollNoVal()}}</div><br>
+            <div style="margin-left:20%;">{{getNameVal()}}</div><br>
+            <div style="margin-left:20%;">{{getDobVal()}}</div><br>
+            <div style="margin-left:20%;">{{getScoreVal()}}</div><br>
+        </div>
+
+    </div>
+    <hr>

@@ -1,0 +1,35 @@
+<button type="button" class="btn btn-primary " id="addBtn" (click)="addRecord()">Add New Record</button>
+<span id="count">Total No of Students : {{getNoOfRows()}}</span>
+<table class="table table-striped mt-2" id="showTable">
+    <thead class="table-dark">
+        <tr>
+            <th scope="col">Roll No.</th>
+            <th scope="col">Name</th>
+            <th scope="col">Date of Birth</th>
+            <th scope="col">Score</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let row of studentsData">
+            <td>{{row.rollNo}}</td>
+            <td>{{row.name}}</td>
+            <td>{{row.dob}}</td>
+            <td>{{row.score}}</td>
+            <td>
+                    <a routerLink="/edit-record/{{row.id}}" (click)="editStudent()"> <img alt="Edit"
+                        src="https://findicons.com/files/icons/1671/simplicio/128/file_edit.png"
+                        width="35" height="35">
+                 </a> 
+                &nbsp;&nbsp;
+                
+                <a href="javascript: void(0);" (click)="deleteStudent(row)"> <img alt="Delete"
+                        src="https://th.bing.com/th/id/R.e09069597d21e3e789301a56671a3ae6?rik=nYSZtAyvTRvlnQ&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_489668.png&ehk=wKxIh8xblL4MOSmMj4pRCA6hnOcfs70gJYv1Rt%2bnOdA%3d&risl=&pid=ImgRaw&r=0"
+                        width="35" height="35" >
+                </a>
+                </td>
+            
+        </tr>
+        
+    </tbody>
+</table>

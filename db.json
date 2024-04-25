@@ -1,0 +1,50 @@
+{
+  "studentsData": [
+    {
+      "rollNo": 1,
+      "name": "udit Sh",
+      "dob": "2022-07-14",
+      "score": 123,
+      "id": 1
+    }
+  ],
+  "registeredStudents": [
+    {
+      "email": "student123@gmail.com",
+      "password": "pass123"
+    },
+    {
+      "email": "student2@gmail.com",
+      "password": "pass123"
+    },
+    {
+      "email": "student3@gmail.com",
+      "password": "pass123"
+    },
+    {
+      "email": "student1@gmail.com",
+      "password": "pass123"
+    }
+  ],
+  "registeredTeachers": [
+    {
+      "email": "teacher123@gmail.com",
+      "password": "pass123"
+    },
+    {
+      "email": "teacher1@gmail.com",
+      "password": "pass123"
+    },
+    {
+      "email": "teacher2@gmail.com",
+      "password": "pass123"
+    },
+    {
+      "email": "teacher@gmail.com",
+      "password": "pass123"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

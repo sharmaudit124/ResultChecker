@@ -1,0 +1,20 @@
+.container{
+    width: 700%;
+    margin-top: -58px;
+}
+.btn {
+    border-radius: 40px; 
+    border-color: black;
+    width: 100px;
+    
+}
+#clear{
+   margin-left: 9px;
+}
+.card{
+    
+    max-height: 1200px;
+}
+.form-control{
+    border-radius: 40px;
+}

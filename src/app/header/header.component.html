@@ -1,0 +1,22 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<nav class="navbar navbar-expand-lg navbar-light " style="background-color: #A5FFBE;">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/" (click)="userIsNull()"
+          ><img src="https://freepngimg.com/thumb/home/11-2-home-picture.png" alt="Home"
+          style="height:35px;"></a>
+        </li></ul>
+      <h2 style="padding-left:380px; font-family: 'Times New Roman', Times, serif; text-shadow: 10rem;">Result
+        Management System</h2>
+      <div style="margin-left:27%;">
+        <!-- <span *ngIf="trueV()"><button type="button" class="btn btn-outline-success"
+            style="width:100px;" (click)="home()"><strong>Login</strong></button></span> -->
+        <span *ngIf="ifTrue()"><button (click)="logOutNow()" type="button" class="btn btn-outline-danger"
+            style="width:100px;"><strong>Logout</strong></button></span>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- <h4 style="font-family: 'Times New Roman', Times, serif;">Home</h4> -->
